@@ -6,10 +6,10 @@
 
 ### Research 
 
-5. What is pseudocoding and why should you do it?
+5. What is pseudocoding and why should you do it? computer is familiar with such and easier to read
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
-
+90-10
 ## Strings
 
 **For all other questions that involve writing code, you can solve them via the app.js folder under it's respectice section** 
