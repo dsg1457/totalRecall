@@ -129,9 +129,9 @@ Check your work! Your `bank_account` should have $10,100 in it.
 
 
 ### A. Talk about it:
-What are the things in an array called?
-Do Arrays guarantee those things will be in order?
-What real-life thing could you model with an array?
+What are the things in an array called? elements
+Do Arrays guarantee those things will be in order? yes
+What real-life thing could you model with an array? anything you choose with a list of information
 
 
 
@@ -154,10 +154,10 @@ Given the following array `const randomThings = [1, 10, "Hello", true]`
 ### D. Change values
 Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
 
-What would you write to access the 3rd element of the array?
-Change the value of "Github" to "Octocat"
+What would you write to access the 3rd element of the array? ourClass[2];
+Change the value of "Github" to "Octocat" ourClass[5] = "Octocat";
 Add a new element, "Cloud City" to the array
-
+ourCLass.push("Cloud City")
 
 
 ### E. Mix It Up
