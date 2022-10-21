@@ -118,12 +118,71 @@ let currerntAge;
 
 //Arrays and control flow
 
-const myArray = [5, 10, 500, 20]
- myArray.push('Aegon', 'Testing')
- myArray.shift(myArray)
- myArray.unshift('Bob Marley')
- myArray.pop()
- Array.prototype.reverse();
- myArray.reverse();
+//const myArray = [5, 10, 500, 20]
+ //myArray.push('Aegon', 'Super fly')
+// myArray.shift(myArray)
+ //myArray.unshift('Bob Marley')
+ //myArray.pop()
+ //Array.prototype.reverse();
+ //myArray.reverse();
 
- console.log(myArray)
+ //console.log(myArray)
+
+ // let biggSmall = prompt("Enter any number within 1-500")
+// if ( biggSmall <= 100 ) {
+//     console.log("little number")
+// }
+// else if ( biggSmall >= 100 ) {
+//     console.log("big number")
+// }
+
+// let monkeyValue = prompt("Enter any number within 1-100")
+
+// if ( monkeyValue < 5 ) {
+//     console.log("little number")
+// }
+// else if (monkeyValue > 10) {
+//     console.log("big number")
+// }
+// else {
+//     console.log("monkey")
+// }
+
+ const kristynsCloset = [
+        "left shoe",
+        "cowboy boots",
+         "right sock",
+        "GA hoodie",
+        "green pants",
+        "yellow knit hat",
+        "marshmallow peeps"
+   ];
+    
+      console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`)
+      kristynsCloset.splice(6, 0, "raybans")
+      kristynsCloset.splice(5, 1, "stained knit hat")
+      console.log(kristynsCloset)
+
+      const thomsCloset = [
+        [
+          // These are Thom's shirts
+          "grey button-up",
+          "dark grey button-up",
+          "light blue button-up",
+          "blue button-up",
+        ],[
+          // These are Thom's pants
+          "grey jeans",
+          "jeans",
+          "PJs"
+        ],[
+          // Thom's accessories
+          "wool mittens",
+          "wool scarf",
+          "raybans"
+        ]
+      ];
+
+      thomsCloset[0].pop();
+      thomsCloset[1].push('Footie Pajamas')
+      console.log('Thom has a great outfit while wearing his ${thomsCloset[0][2]}, with his ${thomsCloset[1][2]}, while rockin some ${thomsCloset[2][2]}')
