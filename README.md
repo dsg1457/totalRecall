@@ -1,8 +1,8 @@
 # totalRecall## Q + A
-1. How do we assign a value to a variable?
-2. How do we change the value of a variable?
-3. How do we assign an existing variable to a new variable?
-4. Remind me, what are declare, assign, and define?
+1. How do we assign a value to a variable? const, var, let
+2. How do we change the value of a variable? a= value
+3. How do we assign an existing variable to a new variable? let a =b 
+4. Remind me, what are declare, assign, and define? declare is what you do to a variable before you assign and then define. which finalizes it
 
 ### Research 
 
