@@ -91,8 +91,6 @@ let currerntAge;
 
 // give me five
 
-// let totalBalance = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let bank_account = 0;
 
 // totalBalance.forEach(element => {
 //     bank_account += element
@@ -109,7 +107,7 @@ let currerntAge;
 
 // console.log(bank_account_2)
 
-// let bank_account_3 = 0;
+// let bank_account = 0;
 // for(i = 0; i <= 100; i++) {
 //     bank_account_3 += i * 2
 // }
